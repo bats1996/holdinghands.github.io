@@ -1,0 +1,41 @@
+<html>
+  <!-- <script>
+    var isOnHTTPS = window.location.href.startsWith("https");
+    if (!isOnHTTPS) {
+      window.location.href = window.location.href.replace("http", "https");
+    }
+  </script> -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+
+  <!-- Be sure to use tfjs 1.7.4, in tfjs 2 they broke their own handpose model-->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-core@1.7.4/dist/tf-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-converter@1.7.4/dist/tf-converter.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/handpose@0.0.4/dist/handpose.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <meta charset="utf-8" />
+  <head>
+    <h1>Holding Hands Online</h1>
+  </head>
+  <body>
+    <p>
+      As we live in times where holding hands might spread a deadly virus, times
+      where politicians are shaking elbows, times where touching your own face
+      is dangerous! Here is the solution: do it online. Holding hands allows
+      users the opportunity to hold hand respecting physical distancing, you can
+      shake hands at the end of a meeting, or re-create the creation of Adam.
+    </p>
+    <p>
+      For single user interaction
+      <a href="https://hand-interaction.glitch.me/">click here.</a>
+    </p>
+
+    <div>
+      <!--     loading my js code using defer made the application faster -->
+      <script defer src="script.js"></script>
+    </div>
+  </body>
+</html>

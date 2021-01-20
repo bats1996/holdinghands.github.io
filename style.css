@@ -1,0 +1,24 @@
+/* this file is loaded by index.html and styles the page */
+/* CSS files add styling rules to your content */
+
+body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 2em;
+  }
+  
+  
+  h1 {
+    font-style: italic;
+    color: #373fff;
+    max-width: calc(100% - 5rem);
+    line-height: 1.1;
+  }
+  
+  
+  
+  footer {
+    margin-top: 3em;
+    padding-top: 1.5em;
+    border-top: 1px solid lightgrey;
+  }
+  
